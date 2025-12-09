@@ -1,6 +1,12 @@
 There is a well established quantum phenomenon typically observed in a materials stack with two ferromagnets separated by a thin metallic [1-4] or a nonmetallic [5,6] spacer. This stack have a preferred equilibrium magnetic configuration (ferromagnetic or antiferromagnetic) depending on the interlayer exchange coupling (IEC) between the two ferromagnets. Interestingly, such an interlayer exchange coupling oscillates between the ferromagnetic and antiferromagnetic configurations as a function of the spacer thickness, which is known as the oscillatory exchange coupling (OEC).
 
-$Psi=$
+$$   \mathcal{L} = \text{MSE}(y_{\text{pred}}, y_{\text{true}}) + \lambda \cdot \text{LLM\_score}(\text{candidate})   $$
+
+<p align="center">
+  <img src="assets/pipeline.png" width="95%">
+</p>
+<div align="center"><b>Figure 1</b>: End-to-end pipeline combining BERT embeddings with LLaMA filtering</div>
+<br>
 
 References:
 
